@@ -3,18 +3,29 @@
     <head>
         <title>Student Bio</title>
         <link rel="stylesheet" type="text/css" href="style.css">
+
+        <style>
+            h1{
+                background-color: #333333;
+            }
+        </style>
     </head>
     <body>
-        <div class="center">
+       
           <h1 class="headers">Student Bio</h1>
-          <br>
-          <h3 class="headers">Jonathan Everett</h3>
-          <img src="D:\Pictures\Self Promotion Material\Photos of Me\Edits from Shoot with Parker\Cinematic 1.jpg" height="200px" width="300px"> 
-          <p>Jonathan Everett is a Nashville-based web developer, filmmaker, and photographer.</p>
-          <br>
-          <h3 class="headers">Contact Info</h3>
-          <p><strong>Phone:</strong> (931)434-0217</p>
-          <p><strong>Email:</strong> jonathan@jonathaneverettcreative.com</p>
-        </div>
+
+          <div class="container">
+            <section id="main-bio">
+            <h2 class="headers">Jonathan Everett</h2>
+            <img src="D:\Pictures\Self Promotion Material\Photos of Me\Edits from Shoot with Parker\Cinematic 1.jpg" id="bio-image" height="200px" alt="photo of Jonathan"> 
+            <p>Jonathan Everett is a Nashville-based web developer, filmmaker, and photographer.</p>
+            </section>
+
+            <section id="contact-info">
+            <h2 class="headers">Contact Info</h2>
+            <p><strong>Phone:</strong> (931)434-0217</p>
+            <p><strong>Email:</strong> <a href="#">jonathan@jonathaneverettcreative.com</a></p>
+            </section>
+          </div>
     </body>
 </html>
